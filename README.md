@@ -1,0 +1,2 @@
+# Minecraft_Mods_Translation_Japanese
+日本語化
