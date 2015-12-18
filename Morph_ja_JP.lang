@@ -1,0 +1,116 @@
+morph.keybinds=[Morph] クリックしてキーバインドを設定
+morph.gui.keybinds.title=Morphのキーバインド
+morph.gui.keybinds.hold=Hold
+morph.gui.keybinds.none=無し
+morph.gui.keybinds.shift=Shift
+morph.gui.keybinds.ctrl=Ctrl
+morph.gui.keybinds.alt=Alt
+morph.gui.keybinds.selector=セレクター
+morph.gui.keybinds.up=上
+morph.gui.keybinds.down=下
+morph.gui.keybinds.left=左
+morph.gui.keybinds.right=右
+morph.gui.keybinds.choose=選択
+morph.gui.keybinds.cancel=キャンセル
+morph.gui.keybinds.remove=削除
+morph.gui.keybinds.favorite=お気に入り
+morph.denySleep=あなたは、Morphに変身しているので今は眠れません。
+
+morph.config.cat.gameplay.name=ゲームプレイ
+morph.config.cat.abilities.name=能力
+morph.config.cat.clientOnly.name=クライアントオンリー
+
+morph.config.cat.gameplay.comment=MODを利用している間、これらの設定はゲームに影響を及ぼします。
+morph.config.cat.abilities.comment=これらの設定は、Morphの能力の機能に関連があります。
+morph.config.cat.clientOnly.comment=これらの設定は、クライアントのみに適用されます。
+
+morph.config.prop.childMorphs.name=子供のMorph
+morph.config.prop.playerMorphs.name=プレイヤーのMorph
+morph.config.prop.bossMorphs.name=ボスのMorph
+morph.config.prop.blacklistedMobs.name=Mobのブラックリスト
+morph.config.prop.blackwhitelistedPlayers.name=ブラック/ホワイトリストのプレイヤー
+morph.config.prop.listIsBlacklist.name=プレイヤーリストのモード
+morph.config.prop.loseMorphsOnDeath.name=死んだ時にMorphを失うか
+morph.config.prop.instaMorph.name=Insta-Morph
+morph.config.prop.NBTStripper.name=Mod NBT Stripper
+morph.config.prop.useLocalResources.name=ローカルリソースを使用
+morph.config.prop.canSleepMorphed.name=Morphになっている状態で寝れるか
+morph.config.prop.allowMorphSelection.name=Morphを選択する事を許可するか
+morph.config.prop.showPlayerLabel.name=プレイヤーの名前を表示
+morph.config.prop.forceSizeWhenMorphed.name=Morphの時にサイズを強制的に変えるか
+morph.config.prop.abilities.name=能力
+morph.config.prop.customPatchLink.name=カスタムMODの能力パッチ・リンク
+morph.config.prop.hostileAbilityMode.name=敵対的な能力モード
+morph.config.prop.hostileAbilityDistanceCheck.name=敵対的な能力の距離チェック
+morph.config.prop.disableEarlyGameFlight.name=ゲーム内での高速な飛行を無効化
+morph.config.prop.disableEarlyGameFlightMode.name=ゲーム内での高速な飛行のモード
+morph.config.prop.customMobToKillForFlight.name=Custom Mob To Kill For Flight
+morph.config.prop.disabledAbilities.name=能力を無効化
+morph.config.prop.keySelectorUp.name=上へ
+morph.config.prop.keySelectorDown.name=下へ
+morph.config.prop.keySelectorLeft.name=左へ
+morph.config.prop.keySelectorRight.name=右へ
+morph.config.prop.keySelectorSelect.name=選択
+morph.config.prop.keySelectorCancel.name=キャンセル
+morph.config.prop.keySelectorRemoveMorph.name=Morphを削除
+morph.config.prop.keyFavourite.name=Selector Favourite/Radial Menu
+morph.config.prop.handRenderOverride.name=腕の描画を上書き
+morph.config.prop.showAbilitiesInGui.name=能力をGUI内で表示
+morph.config.prop.sortMorphs.name=Morphをソート
+morph.config.prop.renderCrosshairInRadialMenu.name=Render Crosshair in Radial Menu
+
+morph.config.prop.childMorphs.comment=Can you acquire child mob morphs?\nDisabled by default due to improper morph transitions
+morph.config.prop.playerMorphs.comment=Can you acquire player morphs?
+morph.config.prop.bossMorphs.comment=Can you acquire boss morphs?This is disabled by default due to morphing issues with mobs like the EnderDragon, Twilight Forest's Hydra and Naga, etc.
+morph.config.prop.blacklistedMobs.comment=Prevent players from acquiring these mobs as a morph.\nLeave blank to allow acquisition of all compatible mobs.\nFormatting is as follows: <class>, <class>, <class>\nExample: am2.entities.EntityBattleChicken, biomesoplenty.entities.EntityJungleSpider, thaumcraft.common.entities.monster.EntityWisp
+morph.config.prop.listIsBlacklist.comment=Is the player list a blacklist or whitelist?\n0 = Blacklist - Listed players cannot use the Morph Skill\n1 = Whitelist - Listed players are the only ones who can use the Morph Skill
+morph.config.prop.blackwhitelistedPlayers.comment=These players are on the list for Black/White listing for the Morph Skill.\nFormatting is as follows: <name>, <name>, <name>\nExample: Cojomax99, pahimar, ohaiiChun
+morph.config.prop.loseMorphsOnDeath.comment=Will you lose your morphs on death?\n0 = No\n1 = Yes, all morphs\n2 = Yes, the morph you're currently using
+morph.config.prop.instaMorph.comment=Will you insta-morph into a new morph acquired?
+morph.config.prop.NBTStripper.comment=Enable mod mob NBT Stripping?\nThis support is mostly provided by the community and is not officially supported by the mod\nThe stripper was added to remove non-essential information from the Entity NBT to remove duplicate morphs.
+morph.config.prop.useLocalResources.comment=Force the mod to use the local copy of resources in the config folder?\nThis is meant for debugging purposes and for modified local mod mob abilities mappings/NBT stripper.\nDo take note that mappings server and clientside are not synched so both ends will require the same mappings.
+morph.config.prop.canSleepMorphed.comment=Can you sleep while morphed?
+morph.config.prop.allowMorphSelection.comment=Requested by SoundLogic\nCan you open the morph GUI?
+morph.config.prop.showPlayerLabel.comment=Show the player label of a morphed player?
+morph.config.prop.forceSizeWhenMorphed.comment=Force the player size when morphed? This will fix issues with the player boundary being 2 blocks high.
+morph.config.prop.abilities.comment=Enable abilities?
+morph.config.prop.customPatchLink.comment=Redirect the mod to a different JSON patch location rather then the default patch hosted on GitHub.\nIf you would like to use the default, leave this blank.\nThis also affects NBTStripper.json.\nIf the link to your file is "https://raw.github.com/iChun/Morph/master/src/main/resources/assets/morph/mod/AbilitySupport.json", put "https://raw.github.com/iChun/Morph/master/src/main/resources/assets/morph/mod/", you cannot change the file name (eg: AbilitySupport.json) part of the link.
+morph.config.prop.hostileAbilityMode.comment=Hostile Ability Modes\n0 = Off, hostile mobs attack you despite being morphed.\n1 = Hostile mobs do not attack you if you are a hostile mob.\n2 = Hostile mobs of different types do not attack you if you are a hostile mob but hostile mobs of the same kind do.\n3 = Hostile mobs of the same type do not attack you but hostile mobs of other types attack you.\n4 = Hostile mobs have a decreased detection range around you.\n5 = Like 1, but a hostile mob will target you if you attacked them.
+morph.config.prop.hostileAbilityDistanceCheck.comment=Hostile Ability Distance Check for Hostile Ability Mode 4\nYou have to be *this* close before hostile mobs know you are not one of them.\nDefault: 6
+morph.config.prop.disableEarlyGameFlight.comment=Disable the flight ability until a player...\n0 = Enable early game flight\n1 = ...has reached the nether\n2 = ...has killed the Wither
+morph.config.prop.disableEarlyGameFlightMode.comment=Disable Early Game Flight Mode\n0 = Serverwide toggle\n1 = Player specific toggle (Every player has to travel to the nether/kill a wither to get flight for themselves)
+morph.config.prop.customMobToKillForFlight.comment=Change the requirement of killing a wither to a custom mob instead\nUse the full class name of the mob to make Morph bind to the killing of that mob type.(Eg: am2.entities.EntityBattleChicken)\nLeave blank to disable.\nNeeds Disable Early Game Flight set to killing the wither to work.
+morph.config.prop.disabledAbilities.comment=What abilities to disable?\nYou need to use the Ability type (eg fly, witherResistance)\nSeparate each disabled ability with a comma\nEG: fly,swim,sink
+morph.config.prop.keySelectorUp.comment=Key Code to go up on the selector\nDefault: 26 ([)
+morph.config.prop.keySelectorDown.comment=Key Code to go down on the selector\nDefault: 27 (])
+morph.config.prop.keySelectorLeft.comment=Key Code to go left on the selector\nDefault: 26 ([)
+morph.config.prop.keySelectorRight.comment=Key Code to go right on the selector\nDefault: 27 (])
+morph.config.prop.keySelectorSelect.comment=Key Code to select morph on the selector\nDefault: 28 (Enter/Return)
+morph.config.prop.keySelectorCancel.comment=Key Code to close the selector\nDefault: 1 (Esc)
+morph.config.prop.keySelectorRemoveMorph.comment=Key Code to remove morph on the selector.\nDelete also works by default\nDefault: 14 (Backspace)
+morph.config.prop.keyFavourite.comment=Key Code to favourite/unfavourite morph on the selector and show the radial menu.\nDefault: 41 (` [also known as ~])
+morph.config.prop.handRenderOverride.comment=Allow the mod to override player hand rendering?
+morph.config.prop.showAbilitiesInGui.comment=Show the abilities the morph has in the GUI?
+morph.config.prop.sortMorphs.comment=Sort the morphs in the GUI?\n0 = Order of acquisition (Server default)\n1 = Alphabetically (according to Operating System)\n2 = Alphabetically, and attempt to sort grouped morphs as well\n3 = Most recently used since connecting to the server
+morph.config.prop.renderCrosshairInRadialMenu.comment=As per request, render the crosshair position when in the radial menu.
+
+morph.command.demorph=/morph demorph [player] [force demorph even if offline (true/false)] - Makes a player demorph
+morph.command.clear=/morph clear [player] - Clears a player's morphs
+morph.command.morphtarget=/morph morphtarget [player] - Tries to make the player morph the mob they're looking at
+morph.command.addtolist=/morph whitelist <player> - Adds a player to the morph skill whitelist, turning it on
+morph.command.removefromlist=/morph unwhitelist <player> - Removes a player from the morph skill whitelist
+
+morph.command.forcingDemorph=Forcing %s to demorph
+morph.command.notInMorph=%s is not in morph!
+morph.command.noMorphData=%s has no morph data!
+morph.command.cannotReadMorphData=Could not read morph data from %s
+morph.command.notOnline=%s is not online!
+morph.command.clearingMorphs=Clearing %s's morphs
+morph.command.failToClear=Failed to clear %s's morphs
+morph.command.notLookingAtMorphable=%s is not looking at a morphable mob.
+morph.command.forcingMorphTarget=Forcing %s to morph into it's target.
+morph.command.cannotFindPlayer=Cannot find player: %s
+morph.command.addingToBlackWhite=Adding %s to the Black/White list for the Morph Skill.
+morph.command.alreadyInList=Player already in Black/White list
+morph.command.removingFromBlackWhite=Removing %s from the Black/White list for the Morph Skill.
+morph.command.notInList=Player is not on Black/White list
